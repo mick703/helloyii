@@ -1,0 +1,38 @@
+2012/05/20 00:29:53 [error] [exception.CException] exception 'CException' with message 'Property "MessageController._privateUser" is not defined.' in /home/ming/projects/helloyii/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/ming/projects/helloyii/protected/views/message/helloworld.php(12): CComponent->__get('_privateUser')
+#1 /home/ming/projects/helloyii/yii/framework/web/CBaseController.php(127): require('/home/ming/proj...')
+#2 /home/ming/projects/helloyii/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/ming/proj...', Array, true)
+#3 /home/ming/projects/helloyii/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/ming/proj...', Array, true)
+#4 /home/ming/projects/helloyii/yii/framework/web/CController.php(783): CController->renderPartial('helloworld', Array, true)
+#5 /home/ming/projects/helloyii/protected/controllers/MessageController.php(11): CController->render('helloworld', Array)
+#6 /home/ming/projects/helloyii/yii/framework/web/actions/CInlineAction.php(50): MessageController->actionHelloWorld()
+#7 /home/ming/projects/helloyii/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/ming/projects/helloyii/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/ming/projects/helloyii/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ming/projects/helloyii/yii/framework/web/CWebApplication.php(276): CController->run('helloworld')
+#11 /home/ming/projects/helloyii/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('message/hellowo...')
+#12 /home/ming/projects/helloyii/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/ming/projects/helloyii/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=message/helloworld
+---
+2012/05/20 00:31:08 [error] [exception.CException] exception 'CException' with message 'Property "MessageController._privateUser" is not defined.' in /home/ming/projects/helloyii/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/ming/projects/helloyii/protected/views/message/helloworld.php(12): CComponent->__get('_privateUser')
+#1 /home/ming/projects/helloyii/yii/framework/web/CBaseController.php(127): require('/home/ming/proj...')
+#2 /home/ming/projects/helloyii/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/ming/proj...', Array, true)
+#3 /home/ming/projects/helloyii/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/ming/proj...', Array, true)
+#4 /home/ming/projects/helloyii/yii/framework/web/CController.php(783): CController->renderPartial('helloworld', Array, true)
+#5 /home/ming/projects/helloyii/protected/controllers/MessageController.php(11): CController->render('helloworld', Array)
+#6 /home/ming/projects/helloyii/yii/framework/web/actions/CInlineAction.php(50): MessageController->actionHelloWorld()
+#7 /home/ming/projects/helloyii/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/ming/projects/helloyii/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/ming/projects/helloyii/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ming/projects/helloyii/yii/framework/web/CWebApplication.php(276): CController->run('helloworld')
+#11 /home/ming/projects/helloyii/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('message/hellowo...')
+#12 /home/ming/projects/helloyii/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/ming/projects/helloyii/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=message/helloworld
+---
